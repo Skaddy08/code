@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Login</title>
+  <script src="" type="module"></script>
+  <script src="../JavaScript/Controllers/userLogin.js" type="module"></script>
+  <script src="../JavaScript/Authentication/login.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.3/axios.min.js" integrity="sha512-JWQFV6OCC2o2x8x46YrEeFEQtzoNV++r9im8O8stv91YwHNykzIS2TbvAlFdeH0GVlpnyd79W0ZGmffcRi++Bw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/index/styles.css">
+  <script src="../JavaScript/Controllers/sign-in-log-out.js" type="module"></script>
+
+</head>
+
+<body>
+  <div class="container" style="padding: 10%;">
+  <form id="loginForm" method="post" >
+    <h1>User Login</h1>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required class="width-input">
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required class="width-input">
+<br>
+  
+  <button type="submit" class="btn2">Login</button>
+  <p>Don't have an account? <a href="../HTML/registration.html">Register here</a>.</p>
+
+</form>
+</div>
+
+  <script src="../JavaScript/Authentication/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.carousel-caption::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.item-content-title {
+  font-size: 5rem;
+  line-height: 5rem;
+  font-weight: 900;
+}
+
+.movie-info {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.movie-info span {
+  margin-left: 5px;
+}
+
+.movie-info svg {
+  color: var(--main-color);
+}
+
+.movie-info ~ .movie-info {
+  margin-left: 5px;
+}
+
+.item-content-description {
+  font-size: 1.15rem;
+  margin-top: var(--space-top);
+  line-height: 1.5rem;
+}
+
+.carousel-inner img {
+  height: 40rem;
+}
+
+.movie-description {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: calc(var(--space-top) / 2);
+}
+
+.carousel-book-now-btn {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=carousel.css.map */

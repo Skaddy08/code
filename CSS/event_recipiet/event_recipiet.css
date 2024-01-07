@@ -1,0 +1,195 @@
+ 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean and modern font */
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke; 
+  }
+  
+  .container {
+    width: 40%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+    
+  }
+  
+  .header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ed5757;
+  }
+  
+  .header h1 {
+    color: #D1170B;
+    font-style: italic; /* Makes the text italic */
+    
+  }
+  
+  .confirmation-details {
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+  
+  .confirmation-details p {
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: italic; /* Makes the text italic */
+    font-size: large;
+  }
+  
+  .ticket-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #e34b4b;
+    padding-bottom: 20px;
+    font-style: italic; /* Makes the text italic */
+    font-size: large;
+  }
+  
+  .ticket-info {
+    flex: 1;
+  }
+  
+  .ticket-info p {
+    margin-bottom: 20px;
+  }
+  
+  .ticket-info strong {
+    font-weight: bold;
+  }
+  
+  .ticket-image img {
+    max-width: 120px;
+  }
+  
+  .payment-status {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: medium;
+  }
+  
+  .feedback-section {
+    margin-top: 30px;
+  }
+  
+  .feedback-section h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: large;
+    font-style: italic;
+  }
+  
+  .feedback-section form {
+    display: flex;
+    flex-direction: column;
+    font-style: italic; /* Makes the text italic */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .feedback-section p {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-style: italic; /* Makes the text italic */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .feedback-section label {
+    
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+  
+  .feedback-section textarea {
+    resize: vertical;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-style: italic; /* Makes the text italic */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .feedback-section button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-style: italic; /* Makes the text italic */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: large;
+  }
+  
+  .feedback-section button:hover {
+    background-color: #D1170B;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .ticket-details {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .ticket-image {
+      margin-top: 15px;
+    }
+  
+    .feedback-section form {
+      width: 100%;
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  
+  .feedback-section .feedback-options {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+    font-style: italic; /* Makes the text italic */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .feedback-section .feedback-options input[type="radio"],
+  .feedback-section .feedback-options label {
+    margin-right: 5px;
+  }
+  #showFeedback {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    font-style: italic; /* Makes the text italic */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  #showFeedback:hover {
+    background-color: #D1170B;
+  }
+  
+ 

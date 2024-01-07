@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(2, 32, 56, 0.378);
+  padding: 4rem;
+}
+
+.actorimage {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  background-color: black;
+}
+
+tr {
+  height: 4rem;
+  text-align: center;
+}
+
+table {
+  width: 14rem;
+}
+
+.actor-bio {
+  margin: 5rem;
+}
+
+#name {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.actor-info {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .card-container {
+    padding: 2rem;
+    flex-direction: column;
+    height: 120vh;
+  }
+  .actorimage {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  .actor-bio {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .card-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 50vh;
+  }
+  .actorimage {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  .actor-bio {
+    display: none;
+  }
+}
+@media (max-width: 291px) {
+  .card-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 60vh;
+  }
+  .actorimage {
+    width: 50%;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+  .actor-bio {
+    display: none;
+  }
+}/*# sourceMappingURL=artistBio.css.map */

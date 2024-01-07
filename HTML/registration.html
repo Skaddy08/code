@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration</title>
+    <script src="../JavaScript/plugins/allcdns.js" type="module"></script>
+    <script src="../JavaScript/Controllers/addUser.js" type="module"></script>
+    <script
+      src="../Javascript/Authentication/registration.js"
+      type="module"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.3/axios.min.js"
+      integrity="sha512-JWQFV6OCC2o2x8x46YrEeFEQtzoNV++r9im8O8stv91YwHNykzIS2TbvAlFdeH0GVlpnyd79W0ZGmffcRi++Bw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../CSS/index/styles.css" />
+    <script src="../JavaScript/Controllers/sign-in-log-out.js" type="module"></script>
+
+  </head>
+
+  <body >
+
+
+<div class="backdrop" style="padding: 4%;">
+    <form id="registrationForm" method="post">
+      <h1>User Registration</h1>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" class="width-input" required />
+
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" class="width-input" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" class="width-input" />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" class="width-input" required />
+
+      <label for="contactNumber">Contact Number:</label>
+      <input
+        type="tel"
+        class="contactNumber"
+        id="contactNumber"
+        name="contactNumber"
+        pattern="[0-9]{10}"
+        placeholder="Enter 10-digit number"
+        required class="width-input"
+        required
+      />
+
+      <label for="dob">Date of Birth:  &nbsp;<input type="date" id="dob" name="dob" required />
+      </label>
+
+      <div class="favArtist">
+        Favourite Artist : <br>
+        <input type="checkbox" id="ShahRukh" name="ShahRukhKhan" value="ShahRukh Khan">
+        <span for="ShahRukh Khan"> ShahRukh Khan</span>
+        <input type="checkbox" id="SalmanKhan" name="SalmanKhan" value="Salman Khan">
+        <span for="Salman Khan"> Salman Khan</span>
+        <input type="checkbox" id="HritikRoshan" name="HritikRoshan" value="Hritik Roshan">
+        <span for="Hritik Roshan"> Hritik Roshan</span>
+      </div>
+
+      <div class="favGenre">
+        Favourite Genre : <br>
+        <input type="checkbox" id="Action" name="Action" value="Action">
+        <span for="Action"> Action</span>
+        <input type="checkbox" id="Romantic" name="Romantic" value="Romantic">
+        <span for="Romantic"> Romantic</span>
+        <input type="checkbox" id="Thriller" name="Thriller" value="Thriller">
+        <span for="Thriller">Thriller</span>
+      </div>
+
+      <button type="submit"  class="btn1" href="../HTML/login.html">Register</button>
+      <p>
+        Already have an account? <a href="../HTML/login.html">Login here</a>.
+      </p>
+    </form>
+  </div>
+  </body>
+</html>

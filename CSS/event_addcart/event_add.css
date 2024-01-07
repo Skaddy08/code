@@ -1,0 +1,89 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-color: rgb(24, 13, 15);
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: italic;
+  }
+  
+  .ticket-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #3f1212;
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: italic;
+    border-radius: 4px;
+
+  }
+  
+  .ticket-info {
+    text-align: left;
+  }
+  
+  .add-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #f7f4f4;
+    color: rgb(207, 22, 22);
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid red;
+  }
+  
+  .add-btn:hover {
+    background-color: #f7f4f4;
+  }
+
+  .proceed-btn{
+    padding: 10px 20px;
+    font-size: 100px;
+    font-style: italic;
+    background-color: #f7f4f4;
+    color: rgb(207, 22, 22);
+    border: 1px;
+    cursor: pointer;
+  }
+
+/* .footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+  footer {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Add space between elements */
+  }
+  
+  .total-info {
+    display: flex; /* Use flexbox for the total info */
+    gap: 20px; /* Add some space between the elements inside */
+    text-decoration: solid;
+    font-style: italic; /* Makes the text italic */
+    font-size: large;
+    font-weight: 500;
+  }
+#index-btn{
+  background-color: rgb(209, 205, 205);
+}
+  /* Optional: Adjust styles as needed */
+  #proceed-btn {
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease
+    
+  }
+  #proceed-btn:hover {
+    background-color: #2980b9; /* Change background color on hover */
+    transform: scale(1.1); /* Increase size on hover */
+  }
+  

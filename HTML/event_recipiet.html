@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Confirmation</title>
+  <link rel="stylesheet" href="../CSS/event_recipiet/event_recipiet.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Booking Confirmation</h1>
+    </div>
+    <div class="confirmation-details">
+      <p><strong>Thank you for booking your movie tickets!</strong></p>
+      <div class="ticket-details">
+        <div class="ticket-info">
+          <p><strong>Movie:</strong> Dunki</p>
+          <p><strong>Seat Info:</strong> C18 - Audi 2, PVR Cinemas</p>
+          <p><strong>Date & Time:</strong> January 4th, 2024 - 7:00 PM</p>
+          <p><strong>Total Amount:</strong> Rs. 400</p>
+        </div>
+        <div class="ticket-image">
+          <img src="../images/recipet-ticket.jpg" alt="Ticket">
+        </div>
+      </div>
+    </div>
+    <div class="payment-status">
+      <p>Your payment was successful.</p>
+      <p>An email with your tickets has been sent to your registered email address.</p>
+      
+    </div>
+    <button id="showFeedback">We'd love to hear your feedback!</button>
+    <div class="feedback-section hidden">
+      <h2>Help us to improve our services by giving your valuable feedback:</h2>
+      <form action="#" class="feedback-form">
+        <div class="feedback-options">
+          <input type="radio" id="option1" name="feedback-option" value="Excellent">
+          <label for="option1">Excellent &#128525;</label><br>
+          
+          <input type="radio" id="option2" name="feedback-option" value="Good">
+          <label for="option2">Good &#x1F60A;</label><br>
+          
+          <input type="radio" id="option3" name="feedback-option" value="Average">
+          <label for="option3">Average &#x1F615;</label><br>
+          
+          <input type="radio" id="option4" name="feedback-option" value="Poor">
+          <label for="option4">Poor &#x1F61F;</label><br>
+          
+        </div>
+        <label for="additional-comments">Additional Comments:</label>
+        <textarea id="additional-comments" name="additional-comments" rows="4" placeholder="Type your additional comments here..."></textarea>
+        <button id="submitfeedback">Submit Feedback</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    document.getElementById('showFeedback').addEventListener('click', function() {
+      document.querySelector('.feedback-section').classList.remove('hidden');
+    });
+    document.getElementById('submitfeedback').addEventListener('click', function() {
+      window.location.href = "thanks.html";
+
+    });
+  </script>
+</body>
+</html>

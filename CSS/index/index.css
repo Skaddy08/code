@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: rgb(255, 0, 0);
+}
+
+.navbar {
+  background-color: #27222c;
+  color: #f3f6f4;
+}
+
+.btn {
+  margin-left: 12px;
+  background-color: #ece7dd;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  margin-left: 8px;
+}
+
+.carousel-inner img {
+  height: 40rem;
+}
+
+.movie-description {
+  display: flex;
+  margin: auto;
+  width: 30rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel-book-now-btn {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dropdown-toggle {
+  color: antiquewhite;
+}
+
+.movie-display {
+  display: flex;
+}
+
+.events_info {
+  display: flex;
+}/*# sourceMappingURL=index.css.map */
